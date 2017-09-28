@@ -1,0 +1,60 @@
+body {
+	font-family: 'Pontano Sans', sans-serif;
+}
+.bimage {
+	background: url(img/prog.jpg) no-repeat;
+	background-attachment: fixed;
+}
+@media screen and (min-width: 768px) {
+	.smicon {
+		padding-left: 40px;
+	}	
+	.smimage {
+		height: 250px;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+	@keyframes backimagetobig {
+		from {background:url(img/prog.jpg) 100% center no-repeat;}
+		to {background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-autumn-hd-wallpaper-3D.jpg) width:100% center no-repeat ;}
+	}
+	.bimage {
+		animation-name: backimagetobig;
+		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-autumn-hd-wallpaper-3D.jpg) center no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+}
+@media screen and (min-width: 450px) {
+	h1 {
+		font-size: 50px;
+	}
+	.limage {
+		max-width: 200px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.limage {
+		min-width: 100px;
+		margin-top: 20px;
+	}
+	.appify {
+		padding-left: 2.7em;
+		max-height: 200px;
+	}
+}
+@media screen and (min-width: 992px) {
+	h1 {
+		font-size: 75px;
+	}
+	p {
+		font-size: 30px;
+	}
+	.bimage {
+		background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-autumn-hd-wallpaper-3D.jpg) center no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+}
