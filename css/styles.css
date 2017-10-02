@@ -1,61 +1,93 @@
 body {
-	font-family: 'Pontano Sans', sans-serif;
-}
-.bimage {
-	background: url(img/prog.jpg) no-repeat;
+	font-family: "Pontano Sans", sans-serif;
+	background-image: url(img/autumn.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-width: 100%;
+	background-height: 70%;
 	background-attachment: fixed;
 }
+
 a:link {
 	color: black;
 	text-decoration: none;
 }
+
 a:visited {
 	color: black;
 	text-decoration: none;
 }
+
 a:hover {
-	color: #7d97ad;
+	color: #ce5a02;
 	text-decoration: none;
 }
+
 a:active {
 	color: black;
 	text-decoration: none;
 }
+
 .feat {
-	color: #7d97ad;
+	color: #f48200;
 }
+
+div.brow1 {
+	background-color: white;
+}
+
+div.brow2 {
+	background-color: white;
+}
+
+hr {
+	color: #dd3b00;
+}
+
 @media screen and (max-width: 600px) {
 	h1 {
 		font-size: 50px;
 	}
+
 	p {
 		font-size: 20px;
 	}
+
 	.limage {
 		margin-top: 20px;
 		max-height: 150px;
 	}
+
+	.not {
+		margin-top: 20px;
+	}
 }
+
 @media screen and (min-width: 601px) {
-	.bimage {
-		background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-autumn-hd-wallpaper-3D.jpg) center no-repeat;
+	body {
 		background-size: 100%;
 		background-attachment: fixed;
 	}
+
 	.limage {
 		max-height: 200px;
 	}
+
 	.smimage {
 		max-height: 250px;
 		margin: auto;
 	}
+
 	h1 {
 		font-size: 75px;
 	}
+
 	p {
 		font-size: 30px;
 	}
+
 	.feat {
 		font-size: 40px;
+		margin-bottom: 31px;
 	}
 }
